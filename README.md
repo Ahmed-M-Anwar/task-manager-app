@@ -34,8 +34,7 @@ A small task management application built with **Vue 3 (Composition API)** as pa
 
 ### Installation
 \`\`\`bash
-git clone <your-repo-url>
-cd task-manager-app
+git clone https://github.com/Ahmed-M-Anwar/task-manager-app.git
 npm install
 \`\`\`
 
