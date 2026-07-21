@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --font-display: "Manrope", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0f766e;
+  --color-brand-700: #115e59;
+
+  --color-status-pending: #64748b;
+  --color-status-progress: #d97706;
+  --color-status-done: #059669;
+}
+
+body {
+  font-family: var(--font-sans);
+}
